@@ -1,0 +1,23 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>Pretty Lazy Yelp Extractor</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<h1> PLYE - Pretty Lazy Yelp Extractor </h1>
+
+<form action="/plye" method="GET" id="plyeForm">
+    <div>
+        <label for="nameField">What restaurant should we PLYE?</label>
+        <input name="myTerm" id="nameField" value="jamaican">
+        <br>
+        <label for="locationField">Where at?</label>
+        <input name="myLocation" id="locationField" value="Monona">
+        <br>
+        <button>PLYE it!</button>
+    </div>
+</form>
+<p>This will only return the top 3 reviews for the top Yelp result in a business search by the parameters provided above.</p>
+</body>
+</html>
